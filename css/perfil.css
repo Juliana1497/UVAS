@@ -12,6 +12,12 @@
     color: white;
 }
 
+.nav-link:hover,
+.navbar-brand:hover
+{
+    color: rgb(236, 224, 224);
+}
+
 .navbar-collapse {
     justify-content: flex-end;
 }

@@ -11,6 +11,12 @@ body{
     color: white;
 }
 
+.nav-link:hover,
+.navbar-brand:hover
+{
+    color: rgb(236, 224, 224);
+}
+
 .navbar-toggler:focus {
     text-decoration: none;
     outline: 0;
