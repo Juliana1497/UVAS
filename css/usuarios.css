@@ -1,0 +1,26 @@
+.navbar, 
+body{
+    background-color: #BD1550;
+    font-family: 'Exo 2', sans-serif;
+}
+
+.nav-link,
+.navbar-brand,
+.navbar-toggler-icon,
+body{
+    color: white;
+}
+
+.navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: none;
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+}
+.card {
+    background-color: #650858;
+    border-radius: 13px;
+}
