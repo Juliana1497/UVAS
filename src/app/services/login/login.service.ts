@@ -31,7 +31,7 @@ export class LoginService {
   public user: users = new users;
 
 
-
+  url = 'http://localhost:3000/api/newuser';
 
   public auth2: any;
 
@@ -84,6 +84,11 @@ export class LoginService {
 
       } )
     });
+  }
+
+
+  Newregister( user : users ): Observable<any>{
+    return this.http.post(this.url, user);
   }
 
 
