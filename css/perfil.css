@@ -10,6 +10,10 @@
     color: white;
 }
 
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
 .navbar-toggler:focus {
     text-decoration: none;
     outline: 0;
